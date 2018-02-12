@@ -1,0 +1,29 @@
+{
+	"name": "MyFirstExtension",
+	"version": "0.0.1",
+	"author": [
+		"Kris Field"
+	],
+	"url": "https://github.com/krisfield/MyFirstExtension",
+	"descriptionmsg": "myfirstextension-desc",
+	"license-name": "MIT",
+	"type": "specialpage",
+	"AutoloadClasses": {
+		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"
+	},
+	"config": {
+		"MyFirstExtensionEnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"MyFirstExtensionAlias": "MyFirstExtension.i18n.alias.php"
+	},
+	"MessagesDirs": {
+		"MyFirstExtension": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"HelloWorld": "SpecialHelloWorld"
+	},
+	"manifest_version": 1
+}

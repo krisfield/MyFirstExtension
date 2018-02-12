@@ -16,7 +16,8 @@ class SpecialHelloWorld extends SpecialPage {
 		$output = $this->getOutput();
 		$this->setHeaders();
 
-		$output->addHTML('<h2>Hello World!</h2>')
+		$output->addHTML('<h2>This is a special page</h2>');
+		$output->addHTML("<p>I made a special page and put some words on it. It still doesn't do anything</p>");
 	}
 
 	protected function getGroupName() {
